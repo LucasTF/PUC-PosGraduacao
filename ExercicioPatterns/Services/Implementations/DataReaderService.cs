@@ -10,10 +10,7 @@ namespace ExercicioPatterns.Services.Implementations
     {
         public string GetInfoString(DbInfoTypeEnum infoType)
         {
-            switch (infoType)
-            {
-
-            }
+            throw new NotImplementedException();
         }
     }
 }
