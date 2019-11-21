@@ -5,6 +5,6 @@ namespace ExercicioPatterns.Factories.Contracts
 {
     interface IDbInfoFactory
     {
-        DbInfo CreateDbInfo(string connString, DbInfoTypeEnum infoType);
+        DbInfo CreateDbInfo(DbEnum dbType);
     }
 }

@@ -16,5 +16,14 @@ namespace ExercicioPatterns.Resources
         {
 
         }
+
+        public DbInfo(string host, int port, string user, string password, string database)
+        {
+            Host = host;
+            Port = port;
+            User = user;
+            Password = password;
+            Database = database;
+        }
     }
 }
